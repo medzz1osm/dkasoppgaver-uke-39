@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="application/javascript">
+ 
+var alder = prompt("Skriv inn alderen din:");
+
+alder = parseInt(alder);
+
+var billettPris = 0;
+
+if (alder < 9) {
+    billettPris = 0; 
+} else if (alder >= 9 && alder <= 17) {
+    billettPris = 20; 
+} else if (alder >= 18 && alder <= 65) {
+    billettPris = 40; 
+} else if (alder > 65) {
+    billettPris = 20;
+}
+
+console.log("Billettpris: " + billettPris + " kr");
+
+    </script>
+</body>
+</html>

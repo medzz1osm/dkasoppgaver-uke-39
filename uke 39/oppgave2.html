@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="application/javascript">
+    var a = 4;
+var b = 5;
+
+console.log(a + b);
+
+var c = prompt("Skriv inn et tall");
+
+if (isNaN(c)) {
+  console.log("Skriv inn et tall");
+} else {
+  var d = prompt("Skriv inn et nytt tall");
+
+  if (isNaN(d)) {
+    console.log("Skriv inn et tall");
+  } else {
+   
+    var result = parseFloat(c) + parseFloat(d);
+    console.log("Summen av tallene:", result);
+  }
+}
+        </script>
+</body>
+</html>
